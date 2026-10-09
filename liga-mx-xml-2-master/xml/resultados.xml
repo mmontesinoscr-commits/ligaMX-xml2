@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jornada xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="../xsd/resultados.xsd"
+         liga="Liga MX"
+         fecha_jornada="2026-09-27">
+
+    <partido>
+        <local>
+            <nombre>Club América</nombre>
+            <goles>2</goles>
+            <posesion>55%</posesion>
+            <tiros_al_arco>7</tiros_al_arco>
+        </local>
+        <visitante>
+            <nombre>Chivas</nombre>
+            <goles>1</goles>
+            <posesion>45%</posesion>
+            <tiros_al_arco>4</tiros_al_arco>
+        </visitante>
+        <estadio>Estadio Azteca</estadio>
+        <fecha>2026-09-27</fecha>
+    </partido>
+
+    <partido>
+        <local>
+            <nombre>Pumas UNAM</nombre>
+            <goles>1</goles>
+            <posesion>50%</posesion>
+            <tiros_al_arco>5</tiros_al_arco>
+        </local>
+        <visitante>
+            <nombre>Cruz Azul</nombre>
+            <goles>1</goles>
+            <posesion>50%</posesion>
+            <tiros_al_arco>6</tiros_al_arco>
+        </visitante>
+        <estadio>Estadio Olímpico Universitario</estadio>
+        <fecha>2026-09-27</fecha>
+    </partido>
+</jornada>

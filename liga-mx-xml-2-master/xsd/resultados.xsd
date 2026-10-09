@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="jornada">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="partido" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="local" type="equipoType"/>
+                            <xs:element name="visitante" type="equipoType"/>
+                            <xs:element name="estadio" type="xs:string"/>
+                            <xs:element name="fecha" type="xs:date"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="liga" type="xs:string" use="required"/>
+            <xs:attribute name="fecha_jornada" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="equipoType">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"/>
+            <xs:element name="goles" type="xs:integer"/>
+            <xs:element name="posesion" type="xs:string" minOccurs="0"/>
+            <xs:element name="tiros_al_arco" type="xs:integer" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
