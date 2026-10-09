@@ -3,7 +3,6 @@
          xsi:noNamespaceSchemaLocation="../xsd/resultados.xsd"
          liga="Liga MX"
          fecha_jornada="2026-09-27">
-
     <partido>
         <local>
             <nombre>Club América</nombre>
